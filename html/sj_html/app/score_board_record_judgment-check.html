@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>score_board_record_judgment-check</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/app_main.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="bg_back"></div>
+    <div class="head">
+			<div class="header">
+        <div class="arrow">
+          <span class="arrow_img"></span>
+        </div>
+        <h3>스코어 보드 기록원</h3>
+				<div class="logout">
+					<span class="img"></span><br>
+					로그아웃
+				</div>
+			</div>
+		</div>
+    <!-- article div 시작 -->
+    <div class="article judgment_check">
+      <div class="info_box mt_10">
+        <div class="fl info_w mt_20">
+          승패 점수 확인 후 경기 종료 버튼을<br>
+         클릭 하시면 경기가 종료됩니다.
+        </div>
+      </div>
+      <div class="team_box">
+        <div class="fl team">
+          <h5>대한초</h5>
+          <ul>
+            <li class="score">1</li>
+          </ul>
+        </div>
+        <div class="fr team">
+          <h5>민국초</h5>
+          <ul>
+            <li class="score">2</li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn_box_w mt_20">
+        <button class="fl br_5 btn_line_w">취소</button>
+        <button class="fr br_5 btn_f_color">경기 종료</button>
+      </div>
+    </div>
+    <!-- article div 종료 -->
+    <!-- popup popup_judgment -->
+    <div class="popup popup_judgment br_5">
+      <div class="mt_40">
+        <p>
+          경기를 종료하시겠습니까?<br>
+          <span>우리초 1</span> /<span>나라초 2</span>
+        </p>
+      </div>
+      <div class="btn_box">
+        <button class="fl popup_btn btn_op_color">취소</button>
+        <button class="fr popup_btn btn_f_color">확인</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>W-all_mode</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/app_main.css">
+</head>
+<body>
+  <div class="w_wrap">
+    <div class="bg_back"></div>
+    <div class="w_head">
+			<div class="header">
+        <h3>스코어 보드 기록원</h3>
+        <label class="switch br_5 mt_10 switch_btn">
+          <input type="checkbox" checked="">
+          <span class="slider br_5">전광판전원</span>
+        </label>
+        <label class="switch br_5 mt_10 type_btn">
+          <input type="checkbox" checked="">
+          <span class="slider br_5">화면유형</span>
+        </label>
+        <div class="logout">
+					<span class="img"></span><br>
+					로그아웃
+				</div>
+			</div>
+		</div>
+    <!-- article div 시작 -->
+    <div class="article w_all_mode">
+      <div class="ground_place mt_20">
+        <ul>
+          <li class="on">알천 1구장</li>
+          <li>알천 2구장</li>
+          <li>알천 3구장</li>
+          <li>알천 4구장</li>
+          <li>알천 5구장</li>
+          <li>황천 5구장</li>
+          <li>황천 6구장</li>
+        </ul>
+      </div>
+      <!-- all / split mode - 단일 화면 -->
+      <div class="mode">
+        <div class="btn_box_r">
+          <label class="switch br_5 mt_20 mode_btn">
+            <input type="checkbox" checked="">
+            <span class="slider br_5">화면모드</span>
+          </label>
+        </div>
+        <div class="content_box mt_20">
+          <div class="board br_5"></div>
+        </div>
+      </div>
+      <!-- promotion mode -->
+      <div class="promotion">
+        <div class="btn_box_w mt_20">
+          <div class="fl">
+            <button class=" br_5 btn_op_color">템플릿 새로고침</button>
+            <button class="br_5 btn_f_color">선택한 템플릿 삭제</button>
+            <button class="br_5 btn_line_w">템플릿 적용하기</button>
+          </div>
+          <div class="fr">
+            <button class="br_5 btn_op_color arrow">▲</button>
+            <button class="br_5 btn_op_color arrow">▼</button>
+            <button class="br_5 btn_op_color">순서변경</button>
+          </div>
+        </div>
+        <div class="content_promotion_box mt_20">
+          <div class="fl board_box">
+            <div class="board br_5"></div>
+          </div>
+          <div class="fr template_box">
+            <ul class="br_5">
+              <li class="active">템플릿1</li>
+              <li>템플릿2</li>
+              <li>템플릿3</li>
+              <li>템플릿4</li>
+              <li>템플릿5</li>
+              <li>템플릿6</li>
+              <li>템플릿2</li>
+              <li>템플릿3</li>
+              <li>템플릿4</li>
+              <li>템플릿5</li>
+              <li>템플릿6</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- article div 종료 -->
+    <!-- popup popup_del -->
+    <!-- <div class="popup popup_del br_5">
+      <div class="mt_50">
+        <p><span>템플릿 1</span>을 삭제하겠습니까?</p>
+      </div>
+      <div class="btn_box">
+        <button class="fl popup_btn btn_op_color">취소</button>
+        <button class="fr popup_btn btn_f_color">확인</button>
+      </div>
+    </div> -->
+  </div>
+</body>
+</html>

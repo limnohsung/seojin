@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>score_board_record_page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/app_main.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="bg_back"></div>
+    <div class="head">
+			<div class="header">
+				<h3>스코어 보드 기록원</h3>
+				<div class="logout">
+					<span class="img"></span><br>
+					로그아웃
+				</div>
+			</div>
+		</div>
+    <!-- article div 시작 -->
+    <div class="article score_board_record_page">
+      <div class="info_box mt_10">
+        <div class="fl info">
+          <h4>안녕하세요. <span>1234</span>님</h4>
+          <div class="date">TODAY : <span>2020-07-30 16:39:28</span></div>
+        </div>
+        <div class="fr judgment">
+          <button class="br_5">심판인증</button>
+        </div>
+      </div>
+      <div class="match_sort mt_10">
+        <button class="fl br_5 w_50 off">전반전</button>
+        <button class="fr br_5 w_50 on">후반전</button>
+      </div>
+      <div class="match_sort mt_5">
+        <button class="fl br_5 w_30">연장전반</button>
+        <button class="fl br_5 w_30">연장후반</button>
+        <button class="fr br_5 w_30">승부차기</button>
+      </div>
+      <div class="btn_box_w mt_5">
+        <button class="br_5 btn_line_w">경기 시간 설정</button>
+      </div>
+      <div class="btn_box_w mt_5">
+        <button class="br_5 btn_f_color">쿼터 시작</button>
+      </div>
+      <div class="time mt_20">
+          00:00
+      </div>
+      <div class="team_box">
+        <div class="fl team">
+          <h5>대한초</h5>
+          <ul>
+            <li class="arrow up">&#9650;</li>
+            <li class="score">1</li>
+            <li class="arrow down">&#9660;</li>
+          </ul>
+        </div>
+        <div class="fr team">
+          <h5>민국초</h5>
+          <ul>
+            <li class="arrow up">&#9650;</li>
+            <li class="score">2</li>
+            <li class="arrow down">&#9660;</li>
+          </ul>
+        </div>
+      </div>
+      <h6 class="mt_40 r_color">경기가 종료 되었습니다.</h6>
+    </div>
+    <!-- article div 종료 -->
+
+    <!-- popup popup_input -->
+    <!-- <div class="popup popup_input br_5">
+      <div class="mt_20">
+        <input class="br_5" type="text" placeholder="팀 이름을 입력하세요.">
+        <p class="mt_10">위 내용으로 변경 하시겠습니까?</p>
+      </div>
+      <div class="btn_box">
+        <button class="fl popup_btn btn_op_color">취소</button>
+        <button class="fr popup_btn btn_f_color">변경</button>
+      </div>
+    </div> -->
+
+    <!-- popup popup_reset -->
+    <!-- <div class="popup popup_reset br_5">
+      <div class="mt_40">
+        <p>
+          경기시간이 00:00으로 다시 셋팅 됩니다.<br>
+          정말 다시 시작 하시겠습니까?
+        </p>
+      </div>
+      <div class="btn_box">
+        <button class="fl popup_btn btn_op_color">취소</button>
+        <button class="fr popup_btn btn_f_color">변경</button>
+      </div>
+    </div> -->
+
+    <!-- popup popup_reset_time -->
+    <div class="popup popup_reset_time br_5">
+      <div class="mt_20">
+        <ul>
+          <li class="title">경기 시간 설정</li>
+          <li class="mt_10">
+            아래에서 쿼터 선택 후 시간을 설정하세요.
+          </li>
+          <li class=" mt_10 sel">
+            <select class="br_5" name="">
+              <option value="전반전">전반전</option>
+              <option value="후반전">후반전</option>
+              <option value="연장 전반">연장 전반</option>
+              <option value="연장 후반">연장 후반</option>
+            </select>
+          </li>
+          <li class="mt_20 r_color">
+            <span>전반전</span> 경기 시간 설정
+          </li>
+        </ul>
+
+      </div>
+      <div class="mt_30 time_set">
+        <ul>
+          <li class="arrow">▲</li>
+          <li class="time">01</li>
+          <li class="arrow">▼</li>
+        </ul>
+        <ul>
+          <li class="colon">:</li>
+        </ul>
+        <ul>
+          <li class="arrow">▲</li>
+          <li class="time">00</li>
+          <li class="arrow">▼</li>
+        </ul>
+      </div>
+      <div class="btn_box">
+        <button class="fl popup_btn btn_op_color">취소</button>
+        <button class="fr popup_btn btn_f_color">확인</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

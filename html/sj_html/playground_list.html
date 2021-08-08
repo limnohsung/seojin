@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>playground_list</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="js/common.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="hdr_wrap">
+			<div class="header">
+				<div class="fl logo">
+					<div class="img"></div>
+					<span>스코어 보드 관리자</span>
+				</div>
+				<div class="fr logout">
+					<p>안녕하세요. <span>1234</span> 님</p>
+					<button class="ml_10">로그아웃</button>
+				</div>
+			</div>
+		</div>
+		<!-- article ============== -->
+		<div class="article ground_list">
+			<div class="category mt_60">
+				<ul>
+					<li><a href="#">대시보드</a></li>
+					<li><a href="#">대회관리</a></li>
+					<li><a href="#">Manager Edit</a></li>
+					<li class="active"><a href="#">운동장 리스트</a></li>
+					<li><a href="#">지난 대회 관리</a></li>
+					<li><a href="#">패스워드 변경</a></li>
+					<li><a href="#">전광판 관리</a></li>
+					<li><a href="#">팀 및 대진표 관리</a></li>
+				</ul>
+			</div>
+			<div class="mt_40 sub_tit">
+				운동장 리스트
+			</div>
+			<hr class="mt_20">
+			<ul class="srch mt_20">
+				<li>검색</li>
+				<li>
+					<input class="fl ml_10 mt_10 br_5" type="text">
+					<button class="fl br_5 btn_f_color ml_10 mt_10">검색</button>
+				</li>
+			</ul>
+			<p class="count mt_50">
+					검색<span> 9</span>개 / 전체 <span>0000</span>개
+					<button class="fr br_5 btn_f_color">저장</button>
+			</p>
+			<div class="mt_10 table_box_w100">
+				<table class="table_type_not_scroll mt_10">
+					<colgroup>
+						<col style="width: 12%;"/>
+						<col style="width: 22%;"/>
+						<col style="width: 22%;"/>
+						<col style="width: 22%;"/>
+						<col style="width: auto;"/>
+					</colgroup>
+					<thead>
+						<tr>
+							<th>No.</th>
+							<th>운동장 명</th>
+							<th>경기번호</th>
+							<th>주소</th>
+							<th>전화번호</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>10</td>
+							<td>알천 1A</td>
+							<td>662, 123, 456,521</td>
+							<td>서울시 서초구 강남대로 123</td>
+							<td><input class="br_5" type="text"></td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>알천 1A</td>
+							<td>662, 123, 456,521</td>
+							<td>서울시 서초구 강남대로 123</td>
+							<td><input class="br_5" type="text"></td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>알천 1A</td>
+							<td>662, 123, 456,521</td>
+							<td>서울시 서초구 강남대로 123</td>
+							<td><input class="br_5" type="text"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="pg_nation mt_40">
+				<!-- <a class="pg_nation_num fl">◀</a> -->
+				<a class="pg_nation_num fl on">1</a>
+				<a class="pg_nation_num fl">2</a>
+				<a class="pg_nation_num fl">▶</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

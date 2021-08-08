@@ -1,0 +1,76 @@
+@charset "UTF-8";
+ .wrap{width: 100%;}
+
+ .wrap_score_board{width: 375px; margin: 0 auto;}
+ .wrap_score_board .head{height: 60px; border-bottom: 1px solid #ccc; box-sizing: border-box;}
+ .wrap_score_board .head .header{position: relative; width: 100%;}
+ .wrap_score_board .head .header .title{text-align: center; line-height: 60px; font-size: 18px;}
+ .wrap_score_board .head .header .logout{position: absolute; top: 0; bottom: 0; right: 20px; width: 68px; height: 40px; font-size: 14px; margin: auto; border: 0; background: none;}
+
+ .wrap_score_board .wrap_content{width: 335px; margin: 0 auto;}
+ .wrap_score_board .wrap_content .info_box{overflow: hidden; background: #F4F4F4; width: 100%; height: 100px; margin-top: 10px; border-radius: 5px;}
+ .wrap_score_board .wrap_content .info_box .info h3{height: 50px; line-height: 50px; font-size: 15px; font-weight: normal; margin-left: 10px;}
+ .wrap_score_board .wrap_content .info_box .info h3 span{font-weight: bold; text-decoration: underline;}
+
+ .wrap_score_board .wrap_content .info_box .info .date{height: 50px; line-height: 50px; font-size: 15px; margin-left: 10px;}
+ .wrap_score_board .wrap_content .info_box .info .date span{}
+
+ .wrap_score_board .wrap_content .info_box .judgment{float: right; width: 120px; height: 100px;}
+ .wrap_score_board .wrap_content .info_box .judgment button{width: 100px; height: 80px; border: 0; border-radius: 5px; background: #ECF4DB; font-size: 16px; font-weight: bold; margin-top: 10px; margin-left: 10px;}
+
+.wrap_score_board .wrap_content .match_sort{width: 100%; overflow: hidden; margin-top: 20px;}
+.wrap_score_board .wrap_content .match_sort button{width: 165px; height: 40px; border: 0; background: #ECF4DB; box-sizing: border-box; border-radius: 5px; font-size: 16px;}
+.wrap_score_board .wrap_content .match_sort button.on{background: #70B401; color: #fff;}
+.wrap_score_board .wrap_content .match_sort button.off{background: #AAA; color: #fff;}
+
+.wrap_score_board .wrap_content .match_sort_three{margin-top: 5px;}
+.wrap_score_board .wrap_content .match_sort_three button{width: 108px; background: #ECF4DB; border: 0;}
+.wrap_score_board .wrap_content .match_sort_three button:nth-child(2){margin: 0 6px 0 5px;}
+
+
+.wrap_score_board .wrap_content .btn_box_w{width: 100%; margin-top: 5px;}
+.wrap_score_board .wrap_content .btn_box_w button{width: 100%; height: 45px; background: #70B401; color: #fff; margin-bottom: 0; border: 0; border-radius: 5px; margin-top: 0; font-size: 16px;}
+.wrap_score_board .wrap_content .btn_box_w button.time{width: 100%; height: 45px; line-height: 45px; background: none; box-sizing: border-box; border: 1px solid #70B401; border-radius: 5px; margin-top: 0; color: #000;}
+
+.wrap_score_board .wrap_content .time{width: 100%; height: 50px; line-height: 50px; margin-top: 20px; background: #F4F4F4; text-align: center; font-size: 16px; overflow: hidden;}
+.wrap_score_board .wrap_content .time p{font-size: 24px; font-weight: bold;}
+
+/* v0.1 */
+.wrap_score_board .wrap_content .team_box{overflow: hidden; text-align: center; width: 100%; margin-top: 25px; overflow: hidden;}
+.wrap_score_board .wrap_content .team_box div{width: 165px;}
+.wrap_score_board .wrap_content .team_box .team{}
+/* .wrap_score_board .wrap_content .team_box .team h5{font-size: 24px; font-weight: bold;} */
+.wrap_score_board .wrap_content .team_box .team input{display: inline-block; width: 60%; height: 35px; margin: 0 auto; vertical-align: top; box-sizing: border-box;}
+.wrap_score_board .wrap_content .team_box .team button{width: 40%; height: 35px; border: 0; border-radius: 2px; }
+.wrap_score_board .wrap_content .team_box .team ul{background: #FCFCFC; margin-top: 35px; border-radius: 5px;}
+.wrap_score_board .wrap_content .team_box .team ul li{height: 50px; line-height: 50px; font-size: 17px;}
+.wrap_score_board .wrap_content .team_box .team ul li.arrow{cursor: pointer;}
+.wrap_score_board .wrap_content .team_box .team ul li.score{height: 80px; line-height: 80px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; font-size: 50px; font-weight: bold;}
+
+
+/* v0.2 */
+/*
+.wrap_score_board .wrap_content .team_box{}
+.wrap_score_board .wrap_content .team_box .team{width: 100%; height: 80px; margin-top: 20px;}
+.wrap_score_board .wrap_content .team_box .team:nth-child(2){margin-top: 10px;}
+.wrap_score_board .wrap_content .team_box .team ul{position: relative; width: 100%; height: 100%; line-height: 80px; background: #F4F4F4; border-radius: 5px;}
+.wrap_score_board .wrap_content .team_box .team ul li{position: absolute; line-height: 80px; top: 0; bottom: 0; margin: auto;}
+.wrap_score_board .wrap_content .team_box .team ul li.team_name{width: auto; left: 20px; font-size: 20px; font-weight: bold;}
+.wrap_score_board .wrap_content .team_box .team ul li.arrow{width: 45px; height: 45px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box; text-align: center; line-height: 45px; background: #fff; cursor: pointer;}
+.wrap_score_board .wrap_content .team_box .team ul li.up{left: 141px;}
+.wrap_score_board .wrap_content .team_box .team ul li.score{display: inline-block; width: 90px; height: 100%; font-size: 45px; left: 186px; font-weight: bold; text-align: center;}
+.wrap_score_board .wrap_content .team_box .team ul li.down{left: 276px;}
+*/
+
+.title
+
+
+
+
+
+
+
+
+
+
+/* */

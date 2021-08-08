@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SMP-Template_add</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="js/common.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="hdr_wrap">
+			<div class="header">
+				<div class="fl logo">
+					<div class="img"></div>
+					<span>스코어 보드 관리자</span>
+				</div>
+				<div class="fr logout">
+					<p>안녕하세요. <span>1234</span> 님</p>
+					<button class="ml_10">로그아웃</button>
+				</div>
+			</div>
+		</div>
+		<!-- article ============== -->
+		<div class="article temp_add">
+			<div class="category mt_60">
+				<ul>
+					<li class="active"><a href="#">전광판 관리</a></li>
+				</ul>
+			</div>
+			<div class="mt_20 sub_tit">
+				템플릿 추가
+			</div>
+			<hr class="mt_15">
+			<div class="btn_box_r">
+				<button class="br_5 btn_f_color">미리보기</button>
+			</div>
+		  <table class="mt_15 regi_table">
+				<colgroup>
+					<col style="width: 15%;"/>
+					<col style="width: auto;"/>
+				</colgroup>
+				<tbody>
+					<tr>
+						<td>운동장 이름</td>
+						<td>알천 1구장</td>
+					</tr>
+					<tr>
+						<td>템플릿 이름*</td>
+						<td><input class="br_5" type="text" placeholder="템플릿 이름을 직접 입력하세요."></td>
+					</tr>
+					<tr>
+						<td>순서 지정*</td>
+						<td>
+							<button class="br_5">&#9650;</button>
+							<input class="num br_5" type="text">
+							<button class="br_5">&#9660;</button>
+						</td>
+					</tr>
+					<tr class="type_box">
+						<td>유형 선택*</td>
+						<td>
+							<div class="radio_box">
+							<input type="radio" name="type" checked="checked"> 즉시 송출 텍스트
+							<input class="ml_30" type="radio" name="type"> 파일첨부
+							</div>
+							<div class="file_box">
+								<label for="upload01" class="br_5 file_label">파일 업로드</label>
+							  <input class="br_5" type="text" readonly="readonly" class="file_name">
+							  <input type="file" name="" id="upload01" class="file-upload br_5">
+								<button class="br_5 btn_f_color">등록</button>
+								<button class="br_5 btn_line_w">삭제</button>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="custom_table">
+							<div class="custom mt_15">
+								<div class="fl board ml_10 mt_40">
+									<div class="board_content">
+									<!-- 	<div class="title">
+											2020화랑대기 전국 유소년 축구대회
+										</div>
+										<div class="times">10:20:14</div>
+										<div class="info">
+											<ul class="mt_10">
+												<li>
+													<div class="team">대한초</div>
+													<div class="score">0</div>
+												</li>
+												<li>
+													<b>4강전</b><br>
+													<b>전</b><br>
+													<b>44:30</b>
+												</li>
+												<li>
+													<div class="team">대한초</div>
+													<div class="score">0</div>
+												</li>
+											</ul>
+										</div>
+										<p>타구장 소식 : 우리초 4 vs 3나라초 / 결승전 8월 20일 14시</p>
+										<div class="gjs mt_20">
+											<img src="img/gjs_logo.png" alt="">
+										</div> -->
+									</div>
+								</div>
+								<div class="fr text_custom mt_40">
+									<p>텍스트 설정</p>
+									<ul class="mt_20">
+										<li class="mt_10">
+											<span>텍스트</span>
+											<select class="br_5" name="" id="">
+												<option value="맑은 고딕">맑은 고딕</option>
+												<option value="돋움">돋움</option>
+												<option value="굴림">굴림</option>
+												<option value="HY견고딕">HY견고딕</option>
+												<option value="HY견명조">HY견명조</option>
+											</select>
+										</li>
+										<li class="mt_10">
+											<span>크기</span>
+											<select class="br_5" name="" id="">
+												<option value="">20</option>
+												<option value="">21</option>
+												<option value="">22</option>
+												<option value="">23</option>
+												<option value="">24</option>
+												<option value="">25</option>
+												<option value="">26</option>
+												<option value="">27</option>
+												<option value="">28</option>
+												<option value="">29</option>
+												<option value="">30</option>
+												<option value="">31</option>
+												<option value="">32</option>
+												<option value="">33</option>
+												<option value="">34</option>
+												<option value="">35</option>
+												<option value="">36</option>
+												<option value="">37</option>
+												<option value="">38</option>
+												<option value="">39</option>
+												<option value="">40</option>
+												<option value="">41</option>
+												<option value="">42</option>
+												<option value="">43</option>
+												<option value="">44</option>
+												<option value="">45</option>
+												<option value="">46</option>
+												<option value="">47</option>
+												<option value="">48</option>
+												<option value="">49</option>
+												<option value="">50</option>
+												<option value="">51</option>
+												<option value="">52</option>
+												<option value="">53</option>
+												<option value="">54</option>
+												<option value="">55</option>
+												<option value="">56</option>
+												<option value="">57</option>
+												<option value="">58</option>
+												<option value="">59</option>
+												<option value="">60</option>
+												<option value="">61</option>
+												<option value="">62</option>
+												<option value="">63</option>
+												<option value="">64</option>
+												<option value="">65</option>
+												<option value="">66</option>
+												<option value="">67</option>
+												<option value="">68</option>
+												<option value="">69</option>
+												<option value="">70</option>
+												<option value="">71</option>
+												<option value="">72</option>
+												<option value="">73</option>
+												<option value="">74</option>
+												<option value="">75</option>
+												<option value="">76</option>
+												<option value="">77</option>
+												<option value="">78</option>
+												<option value="">79</option>
+												<option value="">80</option>
+												<option value="">81</option>
+												<option value="">82</option>
+												<option value="">83</option>
+												<option value="">84</option>
+												<option value="">85</option>
+												<option value="">86</option>
+												<option value="">87</option>
+												<option value="">88</option>
+												<option value="">89</option>
+												<option value="">90</option>
+												<option value="">91</option>
+												<option value="">92</option>
+												<option value="">93</option>
+												<option value="">94</option>
+												<option value="">95</option>
+												<option value="">96</option>
+												<option value="">97</option>
+												<option value="">98</option>
+												<option value="">99</option>
+												<option value="">100</option>
+											</select>
+										</li>
+										<li class="mt_10">
+											<span>효과</span>
+											<input class="bold br_5" type="button">
+											<input class="italic br_5" type="button">
+											<input class="unline br_5" type="button">
+										</li>
+										<li class="mt_10">
+											<span>글자색</span>
+											<input class="color br_5" type="button">
+										</li>
+										<li class="mt_10">
+											<span>하단 메세지</span>
+											<button class="br_5 btn_line_g">즉시 송출 하기</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+		  </table>
+			<div class="mt_40 btn_box_c">
+				<button class="br_5 btn_f_p_color">저장</button>
+			</div>
+		</div>
+		<!-- article div -->
+
+	</div>
+</body>
+</html>

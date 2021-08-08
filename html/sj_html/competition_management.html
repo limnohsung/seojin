@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Competition_management</title>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="js/common.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="hdr_wrap">
+			<div class="header">
+				<div class="fl logo">
+					<div class="img"></div>
+					<span>스코어 보드 관리자</span>
+				</div>
+				<div class="fr logout">
+					<p>안녕하세요. <span>1234</span> 님</p>
+					<button class="ml_10">로그아웃</button>
+				</div>
+			</div>
+		</div>
+		<!-- article ============== -->
+		<div class="article competition_management">
+			<div class="category mt_60">
+				<ul>
+					<li><a href="#">대시보드</a></li>
+					<li class="active"><a href="#">대회관리</a></li>
+					<li><a href="#">Manager Edit</a></li>
+					<li><a href="#">운동장 리스트</a></li>
+					<li><a href="#">지난 대회 관리</a></li>
+					<li><a href="#">패스워드 변경</a></li>
+					<li><a href="#">전광판 관리</a></li>
+					<li><a href="#">팀 및 대진표 관리</a></li>
+				</ul>
+			</div>
+			<div class="mt_20 sub_tit">
+				대회 관리
+			</div>
+			<hr class="mt_15">
+			<div class="btn_box_r">
+				<button class="br_5 btn_line_g">대회 시작</button>
+				<button class="br_5 btn_f_color">대회 종료</button>
+			</div>
+		  <table class="mt_15 regi_table">
+				<colgroup>
+					<col style="width: 15%;"/>
+					<col style="width: auto;"/>
+				</colgroup>
+				<tbody>
+					<tr>
+						<td>대회 명*</td>
+						<td><input class="br_5" type="text"></td>
+					</tr>
+					<tr>
+						<td>대회 시작 시간*</td>
+						<td>
+							<button class="btn_line_g br_5">날짜 선택</button>
+							<select class="br_5" name="">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+							</select>
+							<select class="br_5" name="">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+								<option value="32">32</option>
+								<option value="33">33</option>
+								<option value="34">34</option>
+								<option value="35">35</option>
+								<option value="36">36</option>
+								<option value="37">37</option>
+								<option value="38">38</option>
+								<option value="39">39</option>
+								<option value="40">40</option>
+								<option value="41">41</option>
+								<option value="42">42</option>
+								<option value="43">43</option>
+								<option value="44">44</option>
+								<option value="45">45</option>
+								<option value="46">46</option>
+								<option value="47">47</option>
+								<option value="48">48</option>
+								<option value="49">49</option>
+								<option value="50">50</option>
+								<option value="51">51</option>
+								<option value="52">52</option>
+								<option value="53">53</option>
+								<option value="54">54</option>
+								<option value="55">55</option>
+								<option value="56">56</option>
+								<option value="57">57</option>
+								<option value="58">58</option>
+								<option value="59">59</option>
+							</select>
+							<b class="ml_10">2020년 08월 01일</b>
+						</td>
+					</tr>
+					<tr>
+						<td>타 구장 소식 뒤 추가 알림</td>
+						<td>
+							<input class="br_5" type="text" placeholder="타 구장 소식 뒤 추가 알림 내용을 입력하세요.">
+						</td>
+					</tr>
+					<tr>
+						<td>전 구장 즉시 송출 알림</td>
+						<td>
+							<input class="br_5" type="text" placeholder="전 구장 즉시 송출 알림 내용을 입력하세요.">
+						</td>
+					</tr>
+					<tr>
+						<td>알림 설정*</td>
+						<td>
+							<input type="radio" checked="checked"> ON
+							<input  class="ml_30" type="radio"> OFF
+						</td>
+					</tr>
+				</tbody>
+		  </table>
+			<div class="mt_40 btn_box_c">
+				<button class="br_5 btn_f_p_color">저장</button>
+			</div>
+			<hr class="mt_20">
+			<div class="mt_40 sub_tit">
+				경기 리스트
+			</div>
+			<div class="scroll_wrap mt_10">
+				<span class="fl">◀</span>
+				<div class="scroll_x">
+					<ul>
+						<li class="active">A그룹</li>
+						<li>B그룹</li>
+						<li>C그룹</li>
+						<li>D그룹</li>
+						<li>E그룹</li>
+						<li>F그룹</li>
+						<li>G그룹</li>
+						<li>H그룹</li>
+						<li>I그룹</li>
+						<li>J그룹</li>
+					</ul>
+				</div>
+				<span class="fr">▶</span>
+			</div>
+			<div class="table_box_w100 mt_15">
+				<table class="table_type_01">
+					<colgroup>
+						<col style="width: 8%;"/>
+						<col style="width: 8%;"/>
+						<col style="width: 8%;"/>
+						<col style="width: 7%;"/>
+						<col style="width: 9%;"/>
+						<col style="width: 28%;"/>
+						<col style="width: 10%;"/>
+						<col style="width: 10%;"/>
+						<col style="width: auto;"/>
+					</colgroup>
+					<thead>
+						<tr>
+							<th>경기 1팀</th>
+							<th>경기 2팀</th>
+							<th>승팀</th>
+							<th>스코어</th>
+							<th>경기 시퀸스</th>
+							<th>대전 일시</th>
+							<th>운동장</th>
+							<th>스코어 관리원</th>
+							<th>경기 종료하기</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="9">
+								<div class="scroll">
+									<table>
+										<colgroup>
+											<col style="width: 8%;"/>
+											<col style="width: 8%;"/>
+											<col style="width: 8%;"/>
+											<col style="width: 7%;"/>
+											<col style="width: 9%;"/>
+											<col style="width: 28%;"/>
+											<col style="width: 10%;"/>
+											<col style="width: 10%;"/>
+											<col style="width: auto;"/>
+										</colgroup>
+										<tbody>
+											<tr>
+												<td>서울 신정</td>
+												<td>울산 삼호</td>
+												<td>서울 신정</td>
+												<td>2:0</td>
+												<td>641</td>
+												<td>
+													<span><a href="#">2020년 07월 08일</a></span>
+													<select class="br_5 ml_10" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+													</select>
+													<select class="br_5" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+													</select>
+												</td>
+												<td>알천 2B</td>
+												<td>홍길동</td>
+												<td>
+													<button class="br_5 btn_line_g">종료됨</button>
+												</td>
+											</tr>
+											<tr>
+												<td>서울 신정</td>
+												<td>울산 삼호</td>
+												<td>서울 신정</td>
+												<td>2:0</td>
+												<td>641</td>
+												<td>
+													<span><a href="#">2020년 07월 08일</a></span>
+													<select class="br_5 ml_10" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+													</select>
+													<select class="br_5" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+													</select>
+												</td>
+												<td>알천 2B</td>
+												<td>홍길동</td>
+												<td>
+													<button class="br_5 btn_line_g">종료됨</button>
+												</td>
+											</tr>
+											<tr>
+												<td>서울 신정</td>
+												<td>울산 삼호</td>
+												<td>서울 신정</td>
+												<td>2:0</td>
+												<td>641</td>
+												<td>
+													<span><a href="#">2020년 07월 08일</a></span>
+													<select class="br_5 ml_10" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+													</select>
+													<select class="br_5" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+													</select>
+												</td>
+												<td>알천 2B</td>
+												<td>홍길동</td>
+												<td>
+													<button class="br_5 btn_dark_color">경기종료</button>
+												</td>
+											</tr>
+											<tr>
+												<td>서울 신정</td>
+												<td>울산 삼호</td>
+												<td>서울 신정</td>
+												<td>2:0</td>
+												<td>641</td>
+												<td>
+													<span><a href="#">2020년 07월 08일</a></span>
+													<select class="br_5 ml_10" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+													</select>
+													<select class="br_5" name="">
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+														<option value="6">6</option>
+														<option value="7">7</option>
+														<option value="8">8</option>
+														<option value="9">9</option>
+														<option value="10">10</option>
+														<option value="11">11</option>
+														<option value="12">12</option>
+														<option value="13">13</option>
+														<option value="14">14</option>
+														<option value="15">15</option>
+														<option value="16">16</option>
+														<option value="17">17</option>
+														<option value="18">18</option>
+														<option value="19">19</option>
+														<option value="20">20</option>
+														<option value="21">21</option>
+														<option value="22">22</option>
+														<option value="23">23</option>
+														<option value="24">24</option>
+														<option value="25">25</option>
+														<option value="26">26</option>
+														<option value="27">27</option>
+														<option value="28">28</option>
+														<option value="29">29</option>
+														<option value="30">30</option>
+														<option value="31">31</option>
+														<option value="32">32</option>
+														<option value="33">33</option>
+														<option value="34">34</option>
+														<option value="35">35</option>
+														<option value="36">36</option>
+														<option value="37">37</option>
+														<option value="38">38</option>
+														<option value="39">39</option>
+														<option value="40">40</option>
+														<option value="41">41</option>
+														<option value="42">42</option>
+														<option value="43">43</option>
+														<option value="44">44</option>
+														<option value="45">45</option>
+														<option value="46">46</option>
+														<option value="47">47</option>
+														<option value="48">48</option>
+														<option value="49">49</option>
+														<option value="50">50</option>
+														<option value="51">51</option>
+														<option value="52">52</option>
+														<option value="53">53</option>
+														<option value="54">54</option>
+														<option value="55">55</option>
+														<option value="56">56</option>
+														<option value="57">57</option>
+														<option value="58">58</option>
+														<option value="59">59</option>
+													</select>
+												</td>
+												<td>알천 2B</td>
+												<td>홍길동</td>
+												<td>
+													<button class="br_5 btn_dark_color">경기종료</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- article div -->
+
+	</div>
+</body>
+</html>
